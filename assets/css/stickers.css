@@ -1,0 +1,34 @@
+main {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+img {
+    height: 300px;
+    width: 350px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#numeroTickets::-webkit-outer-spin-button,
+#numeroTickets::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;            
+}
+.numerotickets{
+    height: 2rem;
+    width: 50% ;
+}
+body{
+    height: 100hv;
+    width: 100wv;
+    text-align: center;
+}
+h1{
+    padding-top: 3rem;
+}
